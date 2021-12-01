@@ -5,24 +5,24 @@ const { expect } = require('chai');
 
 const puzzleInput = require('./input');
 
-const { returnInput } = require('./index');
+const { part1, part2 } = require('./index');
 
 xdescribe('Day nn', () => {
   const testInput = null;
 
   describe('Part 1', () => {
     it('should return input', () => {
-      expect(returnInput(testInput)).to.deep.equal(testInput);
+      expect(part1(testInput)).to.deep.equal(testInput);
 
-      console.log(returnInput(puzzleInput));
+      console.log(part1(puzzleInput));
     });
   });
 
-  describe('Part 2', () => {
+  xdescribe('Part 2', () => {
     it('should return input', () => {
-      expect(returnInput(testInput)).to.deep.equal(testInput);
+      expect(part2(testInput)).to.deep.equal(testInput);
 
-      console.log(returnInput(puzzleInput));
+      console.log(part2(puzzleInput));
     });
   });
 });
