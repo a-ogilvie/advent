@@ -1,0 +1,21 @@
+{
+  "name": "advent-2021",
+  "version": "2021.0.0",
+  "description": "Alexander Ogilvie's submissions for Advent of Code 2021",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "advent-of-code"
+  ],
+  "author": "aogilvie",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@a-ogilvie/eslint-config": "5.0.0",
+    "@types/eslint": "8.2.0",
+    "chai": "4.3.4",
+    "lodash": "4.17.21",
+    "mocha": "9.1.3"
+  }
+}
