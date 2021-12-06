@@ -3,7 +3,7 @@
 
 const { expect } = require('chai');
 
-const puzzleInput = require('./input');
+const puzzleInput = require('./input'); // eslint-disable-line no-unused-vars
 
 const { part1, part2 } = require('./index');
 
@@ -14,7 +14,7 @@ describe.skip('Day nn', () => {
     it('should return input', () => {
       expect(part1(testInput)).to.equal(testInput);
 
-      console.log(part1(puzzleInput));
+      // console.log(part1(puzzleInput));
     });
   });
 
@@ -22,7 +22,7 @@ describe.skip('Day nn', () => {
     it('should return input', () => {
       expect(part2(testInput)).to.equal(testInput);
 
-      console.log(part2(puzzleInput));
+      // console.log(part2(puzzleInput));
     });
   });
 });
