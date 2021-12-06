@@ -8,7 +8,7 @@ Your instincts tell you that in order to save Christmas, you'll need to get all 
 
 Collect stars by solving puzzles. Two puzzles will be made available on each day in the Advent calendar; the second puzzle is unlocked when you complete the first. Each puzzle grants <b style="color:gold">one star</b>. Good luck!
 
-## Part 1
+## Part One
 
 As the submarine drops below the surface of the ocean, it automatically performs a sonar sweep of the nearby sea floor. On a small screen, the sonar sweep report (your puzzle input) appears: each line is a measurement of the sea floor depth as the sweep looks further and further away from the submarine.
 

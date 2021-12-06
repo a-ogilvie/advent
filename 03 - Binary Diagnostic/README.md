@@ -4,7 +4,7 @@ The submarine has been making some odd creaking noises, so you ask it to produce
 
 The diagnostic report (your puzzle input) consists of a list of binary numbers which, when decoded properly, can tell you many useful things about the conditions of the submarine. The first parameter to check is the **power consumption**.
 
-## Part 1
+## Part One
 
 You need to use the binary numbers in the diagnostic report to generate two new binary numbers (called the **gamma rate** and the **epsilon rate**). The power consumption can then be found by multiplying the gamma rate by the epsilon rate.
 
