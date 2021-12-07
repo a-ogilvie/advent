@@ -5,7 +5,7 @@ const { expect } = require('chai');
 
 const puzzleInput = require('./input');
 
-const { part1, part2 } = require('./index');
+const { partOne, partTwo } = require('./index');
 
 describe('Day 04: Giant Squid', () => {
   const testInput = {
@@ -23,17 +23,17 @@ describe('Day 04: Giant Squid', () => {
 
   describe('Part 1', () => {
     it('should calculate the score of the board that wins first', () => {
-      expect(part1(testInput)).to.equal(4512);
+      expect(partOne(testInput)).to.equal(4512);
 
-      console.log(part1(puzzleInput));
+      console.log(partOne(puzzleInput));
     });
   });
 
   describe('Part 2', () => {
     it('should calculate the score of the board that wins last', () => {
-      expect(part2(testInput)).to.equal(1924);
+      expect(partTwo(testInput)).to.equal(1924);
 
-      console.log(part2(puzzleInput));
+      console.log(partTwo(puzzleInput));
     });
   });
 });

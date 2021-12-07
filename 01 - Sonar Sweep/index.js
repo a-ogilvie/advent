@@ -5,7 +5,7 @@
  * @param {number} [windowSize]
  * @returns {number}
  */
-function part1(values, windowSize = 1) {
+function partOne(values, windowSize = 1) {
   let increasingCount = 0;
 
   for (let i = windowSize; i < values.length; i += 1)
@@ -14,4 +14,4 @@ function part1(values, windowSize = 1) {
   return increasingCount;
 }
 
-module.exports = { part1 };
+module.exports = { partOne };

@@ -7,7 +7,7 @@ const _ = require('lodash');
  * @param {Array<[[number, number], [number, number]]>} input
  * @returns {number}
  */
-function part1(input) {
+function partOne(input) {
   return _.sumBy(Object.values(getHorizontalAndVerticalLines(input)), (visitedCount) =>
     visitedCount > 1 ? 1 : 0
   );
@@ -17,7 +17,7 @@ function part1(input) {
  * @param {Array<[[number, number], [number, number]]>} input
  * @returns {number}
  */
-function part2(input) {
+function partTwo(input) {
   const lines = getHorizontalAndVerticalLines(input);
 
   for (let [[x1, y1], [x2, y2]] of input) {
@@ -84,4 +84,4 @@ function getHorizontalAndVerticalLines(input) {
   return lines;
 }
 
-module.exports = { part1, part2 };
+module.exports = { partOne, partTwo };

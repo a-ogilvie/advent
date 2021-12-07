@@ -4,7 +4,7 @@
  * @param {Array<number>} input
  * @returns {number}
  */
-function part1(input) {
+function partOne(input) {
   return calculateMinimumFuelRequired(input, (steps) => steps);
 }
 
@@ -12,7 +12,7 @@ function part1(input) {
  * @param {Array<number>} input
  * @returns {number}
  */
-function part2(input) {
+function partTwo(input) {
   return calculateMinimumFuelRequired(input, (steps) => (steps * (steps + 1)) / 2);
 }
 
@@ -41,4 +41,4 @@ function calculateMinimumFuelRequired(input, calculateFuel) {
   return lowestFuelSpent;
 }
 
-module.exports = { part1, part2 };
+module.exports = { partOne, partTwo };

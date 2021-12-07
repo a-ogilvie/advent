@@ -6,7 +6,7 @@ const _ = require('lodash');
  * @param {Array<string>} input
  * @returns {number}
  */
-function part1(input) {
+function partOne(input) {
   const mostCommonDigits = Array.from(input[0], (_value, i) => input.map((value) => value[i])).map(
     (bits) => {
       let zeroCount = 0;
@@ -27,7 +27,7 @@ function part1(input) {
  * @param {Array<string>} input
  * @returns {number}
  */
-function part2(input) {
+function partTwo(input) {
   const oxygenRating = filterByCount(input, (zeroCount = 0, oneCount = 0) =>
     zeroCount > oneCount ? '0' : '1'
   );
@@ -55,4 +55,4 @@ function filterByCount(input, getValueToKeep) {
   return values[0];
 }
 
-module.exports = { part1, part2 };
+module.exports = { partOne, partTwo };

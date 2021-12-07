@@ -9,7 +9,7 @@ const _ = require('lodash');
  * @param {{numbers: Array<number>, boards: Array<Board>}} input
  * @returns {number}
  */
-function part1({ numbers, boards }) {
+function partOne({ numbers, boards }) {
   for (const number of numbers)
     for (const board of boards) {
       const indexOfNumber = board.indexOf(number);
@@ -25,7 +25,7 @@ function part1({ numbers, boards }) {
  * @param {{numbers: Array<number>, boards: Array<Board>}} input
  * @returns {number}
  */
-function part2({ numbers, boards }) {
+function partTwo({ numbers, boards }) {
   for (const number of numbers)
     for (let i = 0; i < boards.length; i += 1) {
       const board = boards[i];
@@ -73,4 +73,4 @@ function isBingo(board) {
   return false;
 }
 
-module.exports = { part1, part2 };
+module.exports = { partOne, partTwo };

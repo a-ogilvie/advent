@@ -4,7 +4,7 @@
  * @param {any} input
  * @returns {any}
  */
-function part1(input) {
+function partOne(input) {
   return input;
 }
 
@@ -12,8 +12,8 @@ function part1(input) {
  * @param {any} input
  * @returns {any}
  */
-function part2(input) {
+function partTwo(input) {
   return input;
 }
 
-module.exports = { part1, part2 };
+module.exports = { partOne, partTwo };

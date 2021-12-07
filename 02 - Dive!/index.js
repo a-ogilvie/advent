@@ -4,7 +4,7 @@
  * @param {Array<string>} input
  * @returns {any}
  */
-function part1(input) {
+function partOne(input) {
   let position = 0;
   let depth = 0;
 
@@ -31,7 +31,7 @@ function part1(input) {
  * @param {Array<string>} input
  * @returns {any}
  */
-function part2(input) {
+function partTwo(input) {
   let position = 0;
   let depth = 0;
   let aim = 0;
@@ -69,4 +69,4 @@ function parseDirections(input) {
   });
 }
 
-module.exports = { part1, part2 };
+module.exports = { partOne, partTwo };

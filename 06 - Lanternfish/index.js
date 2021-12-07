@@ -7,7 +7,7 @@ const _ = require('lodash');
  * @param {Array<number>} input
  * @returns {number}
  */
-function part1(input) {
+function partOne(input) {
   return calculateFishPopulation(input, 80);
 }
 
@@ -15,7 +15,7 @@ function part1(input) {
  * @param {any} input
  * @returns {any}
  */
-function part2(input) {
+function partTwo(input) {
   return calculateFishPopulation(input, 256);
 }
 
@@ -47,4 +47,4 @@ function calculateFishPopulation(input, days) {
   return _.sum(Object.values(fishCount));
 }
 
-module.exports = { part1, part2 };
+module.exports = { partOne, partTwo };

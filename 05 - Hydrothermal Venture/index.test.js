@@ -5,7 +5,7 @@ const { expect } = require('chai');
 
 const puzzleInput = require('./input');
 
-const { part1, part2 } = require('./index');
+const { partOne, partTwo } = require('./index');
 
 describe('Day 05: Hydrothermal Venture', () => {
   /** @type {Array<[[number, number], [number, number]]>} */
@@ -54,17 +54,17 @@ describe('Day 05: Hydrothermal Venture', () => {
 
   describe('Part 1', () => {
     it('should find the number of positions where all described horizontal and vertical lines intersect', () => {
-      expect(part1(testInput)).to.equal(5);
+      expect(partOne(testInput)).to.equal(5);
 
-      console.log(part1(puzzleInput));
+      console.log(partOne(puzzleInput));
     });
   });
 
   describe('Part 2', () => {
     it('sshould find the number of positions where all described horizontal, vertical, and diagonal lines intersect', () => {
-      expect(part2(testInput)).to.equal(12);
+      expect(partTwo(testInput)).to.equal(12);
 
-      console.log(part2(puzzleInput));
+      console.log(partTwo(puzzleInput));
     });
   });
 });
