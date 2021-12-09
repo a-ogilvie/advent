@@ -61,7 +61,7 @@ describe('Day 05: Hydrothermal Venture', () => {
   });
 
   describe('Part 2', () => {
-    it('sshould find the number of positions where all described horizontal, vertical, and diagonal lines intersect', () => {
+    it('should find the number of positions where all described horizontal, vertical, and diagonal lines intersect', () => {
       expect(partTwo(testInput)).to.equal(12);
 
       console.log(partTwo(puzzleInput));

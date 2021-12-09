@@ -23,7 +23,7 @@ describe('Day 08: Seven Segment Search', () => {
   ];
 
   describe('Part 1', () => {
-    it('should return input', () => {
+    it('should return the number of times 1, 4, 7, or 8 appear in the given output values', () => {
       expect(partOne(testInput)).to.equal(26);
 
       console.log(partOne(puzzleInput));
@@ -31,7 +31,7 @@ describe('Day 08: Seven Segment Search', () => {
   });
 
   describe('Part 2', () => {
-    it('should return input', () => {
+    it('should return the sum of all the output values', () => {
       expect(partTwo(testInput)).to.equal(61229);
 
       console.log(partTwo(puzzleInput));
