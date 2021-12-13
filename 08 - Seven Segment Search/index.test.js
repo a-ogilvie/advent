@@ -3,7 +3,7 @@
 
 const { expect } = require('chai');
 
-const puzzleInput = require('./input'); // eslint-disable-line no-unused-vars
+const puzzleInput = require('./input');
 
 const { partOne, partTwo } = require('./index');
 
