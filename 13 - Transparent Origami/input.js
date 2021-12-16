@@ -1,4 +1,3 @@
-/* eslint-disable no-magic-numbers */
 'use strict';
 
 /** @type {{ dotCoordinates: Array<[number, number]>, foldInstructions: Array<[number | null, number | null]>}} */

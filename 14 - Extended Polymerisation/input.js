@@ -1,4 +1,3 @@
-/* eslint-disable no-magic-numbers */
 'use strict';
 
 /** @type {{ pairInsertionRules: Map<string, string>, polymerTemplate: string }} */

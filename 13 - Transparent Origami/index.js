@@ -1,4 +1,4 @@
-/* eslint-disable id-length,no-shadow */
+/* eslint-disable no-shadow */
 'use strict';
 
 const _ = require('lodash');

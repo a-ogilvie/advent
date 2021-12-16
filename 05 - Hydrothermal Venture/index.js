@@ -1,4 +1,3 @@
-/* eslint-disable id-length */
 'use strict';
 
 const _ = require('lodash');

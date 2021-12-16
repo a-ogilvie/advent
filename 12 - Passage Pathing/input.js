@@ -1,4 +1,3 @@
-/* eslint-disable no-magic-numbers */
 'use strict';
 
 /** @type {Array<[string, string]>} */

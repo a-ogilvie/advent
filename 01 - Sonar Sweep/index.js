@@ -13,7 +13,7 @@ function partOne(input) {
  * @returns {number}
  */
 function partTwo(input) {
-  return getIncreasingCount(input, 3); // eslint-disable-line no-magic-numbers
+  return getIncreasingCount(input, 3);
 }
 
 /**
