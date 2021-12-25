@@ -24,7 +24,7 @@ describe('Day 20: Trench Map', () => {
   };
 
   describe('Part 1', () => {
-    it('should return input', () => {
+    it('should return the number of lit pixels after applying the given enhancement algorithm to the given image twice', () => {
       expect(partOne(testInput)).to.equal(35);
 
       console.log(partOne(puzzleInput));
@@ -32,7 +32,7 @@ describe('Day 20: Trench Map', () => {
   });
 
   describe('Part 2', () => {
-    it('should return input', () => {
+    it('should return the number of lit pixels after applying the given enhancement algorithm to the given image fifty times', () => {
       expect(partTwo(testInput)).to.equal(3351);
 
       console.log(partTwo(puzzleInput));
