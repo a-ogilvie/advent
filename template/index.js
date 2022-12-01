@@ -1,5 +1,7 @@
 'use strict';
 
+const _ = require('lodash');
+
 /**
  * @param {any} input
  * @returns {any}

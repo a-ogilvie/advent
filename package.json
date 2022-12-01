@@ -1,10 +1,11 @@
 {
-  "name": "advent-2021",
+  "name": "advent",
   "version": "2021.12.25",
-  "description": "Alexander Ogilvie's solutions for Advent of Code 2021",
+  "description": "Alexander Ogilvie's solutions for Advent of Code",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha --grep 2022",
+    "test-all": "mocha"
   },
   "keywords": [
     "advent-of-code"

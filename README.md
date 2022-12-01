@@ -1,4 +1,4 @@
-# Advent of Code 2021
+# Advent of Code
 
 Hi! I'm [Eric Wastl](http://was.tl/). I make Advent of Code. I hope you like it! I also made [Vanilla JS](http://vanilla-js.com/), [PHP Sadness](http://phpsadness.com/), and [lots of other things](http://was.tl/projects/). You can find me on [Twitter](https://twitter.com/ericwastl) and [GitHub](https://github.com/topaz).
 
@@ -6,7 +6,7 @@ Hi! I'm [Eric Wastl](http://was.tl/). I make Advent of Code. I hope you like it!
 
 You don't need a computer science background to participate - just a little programming knowledge and some [problem solving skills](https://www.reddit.com/r/adventofcode/comments/7kd8jt/what_would_you_say_are_the_minimal_skills_for/dre0uu3/) will get you pretty far. Nor do you need a fancy computer; every problem has a solution that completes in at most 15 seconds on ten-year-old hardware.
 
-If you'd like to support Advent of Code, you can do so indirectly by helping to [share](https://twitter.com/intent/tweet?text=Daily+programming+puzzles+at+Advent+of+Code&url=https%3A%2F%2Fadventofcode%2Ecom%2F&related=ericwastl&hashtags=AdventOfCode) it with others, or directly via [PayPal or Coinbase](https://adventofcode.com/2021/support).
+If you'd like to support Advent of Code, you can do so indirectly by helping to [share](https://twitter.com/intent/tweet?text=Daily+programming+puzzles+at+Advent+of+Code&url=https%3A%2F%2Fadventofcode%2Ecom%2F&related=ericwastl&hashtags=AdventOfCode) it with others, or directly via [PayPal or Coinbase](https://adventofcode.com/2022/support).
 
 Advent of Code is a registered trademark in the United States.
 

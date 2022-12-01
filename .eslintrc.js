@@ -2,7 +2,7 @@
 
 /** @type {import('eslint').Linter.Config} */
 const eslintConfig = {
-  env: { es2021: true, mocha: true, node: true },
+  env: { es2022: true, mocha: true, node: true },
   extends: ['@a-ogilvie'],
   rules: {
     'id-length': 'off',
