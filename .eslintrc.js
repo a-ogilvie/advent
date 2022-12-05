@@ -8,6 +8,7 @@ const eslintConfig = {
     'id-length': 'off',
     'no-console': 'off',
     'no-magic-numbers': 'off',
+    'sort-keys': 'off',
   },
 };
 
